@@ -41,7 +41,7 @@ st.title("🍷 Wine Quality Prediction App")
 st.markdown("Welcome to the Wine Quality Prediction App! Enter the wine features and predict the quality of the wine.")
 
 # Display an image (optional)
-image = Image.open(r"C:\Users\gokul\Downloads\OIP (2).jpeg")  # Add an image related to wine (optional)
+image = Image.open("C:\Users\gokul\Downloads\OIP (2).jpeg")  # Add an image related to wine (optional)
 st.image(image, caption="Wine Quality Prediction", use_column_width=True)
 
 # Define and display features with better visualization
