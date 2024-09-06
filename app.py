@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-from PIL import Image
+
 
 # Set custom page configuration
 st.set_page_config(
@@ -40,9 +40,6 @@ st.markdown(
 st.title("🍷 Wine Quality Prediction App")
 st.markdown("Welcome to the Wine Quality Prediction App! Enter the wine features and predict the quality of the wine.")
 
-# Display an image (optional)
-image = Image.open("C:\Users\gokul\Downloads\OIP (2).jpeg")  # Add an image related to wine (optional)
-st.image(image, caption="Wine Quality Prediction", use_column_width=True)
 
 # Define and display features with better visualization
 st.subheader("🔍 Enter the Wine Features:")
